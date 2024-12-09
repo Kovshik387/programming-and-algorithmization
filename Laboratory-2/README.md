@@ -6,8 +6,6 @@
 
 ## Установка
 
-У вас должны быть установлены [зависимости проекта](#dependency)
-
 1. Клонирования репозитория `git clone https://github.com/Kovshik387/Exchange-Currency-DSR`
 
 2. Запуск docker контейнеров  `docker compose up -d` 
@@ -48,11 +46,3 @@
 - **RabbitMQ** - брокер сообщений
 - **Nginx** - прокси сервер
 - **PostgreSQL** - база данных пользователей и валют
-
-## <a id="dependency"> Зависимости проекта</a>
-Для запуска проекта необходим `docker compose` версии более `1.27.0`
-
----
-
-### Связь
-+ Telegram: [@yrulewet](https://t.me/yrulewet)
