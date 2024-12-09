@@ -8,7 +8,7 @@
 
 1. Клонирования репозитория `git clone https://github.com/Kovshik387/Exchange-Currency-DSR`
 
-2. Запуск docker контейнеров  `docker compose up -d` 
+2. Запуск docker контейнеров  `docker compose up -d`
 
 3. Откройте `http://localhost` в вашем браузере
 
@@ -34,8 +34,6 @@
 ---
 
 ## Архитектура приложения
-
-![Архитектура](docs/architecture.png)
 
 - **ValueService** - получение данных о валютах с cbr.ru
 - **CacheService** - кеширование данных с `ValueService`
